@@ -7,6 +7,7 @@ import store from '../reduxModules/configureStore';
 import ThemeRoot from './rootViews/ThemeRoot';
 import AppRoot from './rootViews/AppRoot';
 
+
 const App = () => (
     <Provider store={store}>
       <ThemeRoot>
